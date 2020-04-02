@@ -11,10 +11,6 @@ class Song
     @@artists << artist unless @@artists.include?(artist)
   end
   
-  def name
-    @name
-  end
-  
   def self.count 
     @@count
   end
