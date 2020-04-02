@@ -32,7 +32,7 @@ class Song
     @@genres.each do |genre|
       num_of_songs[genre] = genre
     end
-    
+    num_of_songs
   end
 
 end
